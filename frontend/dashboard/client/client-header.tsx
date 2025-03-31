@@ -24,7 +24,7 @@ export function ClientHeader() {
             <Link href="./dashboard/client" className="text-sm font-medium">
               Dashboard
             </Link>
-            <Link href="./dashboard/client/jobs" className="text-sm font-medium">
+            <Link href="./job-list.tsx" className="text-sm font-medium">
               My Jobs
             </Link>
             <Link href="/dashboard/client/freelancers" className="text-sm font-medium">
@@ -56,7 +56,7 @@ export function ClientHeader() {
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="/dashboard/client/credits" className="flex w-full">
+                <Link href="./credit.tsx" className="flex w-full">
                   Buy Credits
                 </Link>
               </DropdownMenuItem>

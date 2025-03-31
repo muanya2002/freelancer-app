@@ -23,13 +23,13 @@ export default function ClientDashboard() {
                     3
                   </span>
                 </Button>
-                <Link href="/dashboard/client/credits">
+                <Link href="./credit.tsx">
                   <Button variant="outline" className="flex items-center gap-2 border-blue-200 text-blue-700">
                     <CreditCard className="h-4 w-4" />
                     <span>150 Credits</span>
                   </Button>
                 </Link>
-                <Link href="./post-job">
+                <Link href="./post-job.tsx">
                   <Button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700">
                     <Plus className="h-4 w-4" />
                     <span>Post a Job</span>
