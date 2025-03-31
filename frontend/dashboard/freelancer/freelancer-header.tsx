@@ -9,7 +9,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Briefcase, User } from "lucide-react"
+import { Briefcase, User, Bot } from "lucide-react"
+import {AiAssistantButton } from "@/components/ui/ai-assistant-button"
 
 export function FreelancerHeader() {
   return (
@@ -32,6 +33,10 @@ export function FreelancerHeader() {
             </Link>
             <Link href="/dashboard/freelancer/messages" className="text-sm font-medium">
               Messages
+            </Link>
+            <Link href="/dashboard/ai-assistant" className="text-sm font-medium flex items-center">
+              <Bot className="mr-1 h-4 w-4" />
+              AI Assistant
             </Link>
           </nav>
         </div>
@@ -70,6 +75,7 @@ export function FreelancerHeader() {
           </DropdownMenu>
         </div>
       </div>
+      <AiAssistantButton/>
     </header>
   )
 }
