@@ -21,10 +21,10 @@ export function ClientHeader() {
             <span className="text-xl font-bold">FreelanceHub</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="/dashboard/client" className="text-sm font-medium">
+            <Link href="./dashboard/client" className="text-sm font-medium">
               Dashboard
             </Link>
-            <Link href="/dashboard/client/jobs" className="text-sm font-medium">
+            <Link href="./dashboard/client/jobs" className="text-sm font-medium">
               My Jobs
             </Link>
             <Link href="/dashboard/client/freelancers" className="text-sm font-medium">

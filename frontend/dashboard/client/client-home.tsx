@@ -29,7 +29,7 @@ export default function ClientDashboard() {
                     <span>150 Credits</span>
                   </Button>
                 </Link>
-                <Link href="./post-job.tsx">
+                <Link href="./post-job">
                   <Button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700">
                     <Plus className="h-4 w-4" />
                     <span>Post a Job</span>
