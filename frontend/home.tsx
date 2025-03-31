@@ -14,10 +14,10 @@ export default function Home() {
             <span className="text-xl font-bold">FreelanceHub</span>
           </div>
           <nav className="flex items-center gap-4">
-            <Link href="/login">
+            <Link href="./login.tsx">
               <Button variant="ghost">Login</Button>
             </Link>
-            <Link href="/register">
+            <Link href="./register.tsx">
               <Button>Sign Up</Button>
             </Link>
           </nav>
@@ -36,13 +36,13 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/register?type=client">
+                <Link href="./register.tsx">
                   <Button size="lg" className="bg-white text-indigo-600 hover:bg-white/90">
                     Hire Talent
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
-                <Link href="/register?type=freelancer">
+                <Link href="./register.tsx">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
                     Find Work
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -70,7 +70,7 @@ export default function Home() {
                   <p>• Secure payment processing</p>
                 </CardContent>
                 <CardFooter>
-                  <Link href="/register?type=client" className="w-full">
+                  <Link href="./register.tsx" className="w-full">
                     <Button className="w-full bg-blue-600 hover:bg-blue-700">Get Started</Button>
                   </Link>
                 </CardFooter>
@@ -92,7 +92,7 @@ export default function Home() {
                   <p>• Get paid securely and on time</p>
                 </CardContent>
                 <CardFooter>
-                  <Link href="/register?type=freelancer" className="w-full">
+                  <Link href="./register.tsx" className="w-full">
                     <Button className="w-full bg-white text-indigo-600 hover:bg-white/90">Find Work</Button>
                   </Link>
                 </CardFooter>
