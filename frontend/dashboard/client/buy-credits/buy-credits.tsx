@@ -8,7 +8,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ClientHeader } from "./client-header"
+import { ClientHeader } from "../client-header"
 import { ArrowLeft, CreditCard, Check, Clock, Shield, Zap, Award, Sparkles } from "lucide-react"
 
 export default function BuyCreditsPage() {
@@ -256,8 +256,3 @@ const plans = [
     savings: 46,
   },
 ]
-
-// Removed duplicate export default function
-export function Loading() {
-    return null
-}
