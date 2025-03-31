@@ -16,7 +16,7 @@ export function ClientHeader() {
     <header className="border-b">
       <div className="container flex h-16 items-center justify-between py-4">
         <div className="flex items-center gap-6">
-          <Link href="/dashboard/client" className="flex items-center gap-2">
+          <Link href="./dashboard/client" className="flex items-center gap-2">
             <Briefcase className="h-6 w-6" />
             <span className="text-xl font-bold">FreelanceHub</span>
           </Link>
@@ -24,13 +24,13 @@ export function ClientHeader() {
             <Link href="./dashboard/client" className="text-sm font-medium">
               Dashboard
             </Link>
-            <Link href="./job-list.tsx" className="text-sm font-medium">
+            <Link href="./my-jobs" className="text-sm font-medium">
               My Jobs
             </Link>
-            <Link href="/dashboard/client/freelancers" className="text-sm font-medium">
+            <Link href="./find-freelancer" className="text-sm font-medium">
               Find Freelancers
             </Link>
-            <Link href="/dashboard/client/messages" className="text-sm font-medium">
+            <Link href="./messages" className="text-sm font-medium">
               Messages
             </Link>
           </nav>
@@ -46,17 +46,17 @@ export function ClientHeader() {
               <DropdownMenuLabel>My Account</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
-                <Link href="/dashboard/client/profile" className="flex w-full">
+                <Link href="./profile" className="flex w-full">
                   Profile
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="/dashboard/client/settings" className="flex w-full">
+                <Link href="./settings" className="flex w-full">
                   Settings
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="./credit.tsx" className="flex w-full">
+                <Link href="../buy-credits" className="flex w-full">
                   Buy Credits
                 </Link>
               </DropdownMenuItem>
